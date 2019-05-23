@@ -13,6 +13,22 @@
  *= require ./tree
  */
 
+.flexite-wrapper {
+    align-items: flex-start;
+}
+
+.flexite-wrapper .btn-danger {
+    color: #fff;
+}
+
+a:link, a:visited {
+    color: inherit;
+}
+
+a:link:hover, a:visited:hover {
+    color: inherit;
+}
+
 button.close {
     outline: none;
 }
@@ -58,4 +74,13 @@ li input[type=checkbox] {
 #entry_path {
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.flexite_search-form {
+    min-width: 160px;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
 }
